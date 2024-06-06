@@ -1,0 +1,736 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add Пользователь",
+        "content_type": 6,
+        "codename": "add_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change Пользователь",
+        "content_type": 6,
+        "codename": "change_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete Пользователь",
+        "content_type": 6,
+        "codename": "delete_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view Пользователь",
+        "content_type": 6,
+        "codename": "view_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Звено сети",
+        "content_type": 7,
+        "codename": "add_supplier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Звено сети",
+        "content_type": 7,
+        "codename": "change_supplier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Звено сети",
+        "content_type": 7,
+        "codename": "delete_supplier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Звено сети",
+        "content_type": 7,
+        "codename": "view_supplier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Продукт",
+        "content_type": 8,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Продукт",
+        "content_type": 8,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Продукт",
+        "content_type": 8,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Продукт",
+        "content_type": 8,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "app_user",
+        "model": "customuser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "app_shop",
+        "model": "supplier"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "app_shop",
+        "model": "product"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1otke2zeev211utzusma5v8kmnp4psfi",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBwgIJL9z0DYZhBqoYmpV0Z765NutDtf-_9l4hpW2vcOi9xInERZ3H63TDlB7cd0D212yzz3NZlQrkr8qBdjjPx83q4fwc19fqth6KKo4ADZ6N08C57DM64gs6jhoIMKoAxpElxBgeorKUEwZM1ynrx_gDk2DeD:1qmZKP:jvXWJD_F9tLt696M16uNEs6qrSFYUuhC8tEnlAv2QHY",
+        "expire_date": "2023-10-14T12:44:13.838Z"
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$pyDgKW3l627fxHgRXfKqfZ$A8YvxoUqOBgjg/WTwGgil/u4wL5/ueGMAMa/tw3rZ54=",
+        "last_login": null,
+        "is_superuser": true,
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-09-30T12:28:28.650Z",
+        "email": "admin@mail.com",
+        "first_name": "",
+        "last_name": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$jPbrEiif5eNsLrdkIQgXUv$S0pjJ2Qy3bkrwzBrfctVGbFvJ3KSIIV1KyfYGIyWk1o=",
+        "last_login": "2023-09-30T12:44:13.837Z",
+        "is_superuser": false,
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-09-30T12:30:15.457Z",
+        "email": "max@mail.com",
+        "first_name": "Max",
+        "last_name": "Maxov",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 1,
+    "fields": {
+        "type_supplier": "factory",
+        "name": "Завод Электроники №1",
+        "email": "contact@zavod1.ru",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Производственная ул.",
+        "house_number": "1",
+        "debt": "0.00",
+        "created_at": "2023-09-30T12:34:34.235Z",
+        "parent": null,
+        "lft": 1,
+        "rght": 6,
+        "tree_id": 2,
+        "level": 0
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 2,
+    "fields": {
+        "type_supplier": "retail",
+        "name": "Магазин TechМаркет",
+        "email": "info@techmarket.ru",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Торговая ул.",
+        "house_number": "10",
+        "debt": "20000.00",
+        "created_at": "2023-09-30T12:35:32.769Z",
+        "parent": 1,
+        "lft": 2,
+        "rght": 5,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 3,
+    "fields": {
+        "type_supplier": "entrepreneur",
+        "name": "ТехноТовары Иванова",
+        "email": "ivanov.tech@gmail.com",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Рынок ул.",
+        "house_number": "3а",
+        "debt": "5000.00",
+        "created_at": "2023-09-30T12:36:10.757Z",
+        "parent": 2,
+        "lft": 3,
+        "rght": 4,
+        "tree_id": 2,
+        "level": 2
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 4,
+    "fields": {
+        "type_supplier": "factory",
+        "name": "Завод Электроники №2",
+        "email": "contact@zavod2.ru",
+        "country": "Россия",
+        "city": "Санкт-Петербург",
+        "street": "Заводская ул.",
+        "house_number": "5",
+        "debt": "0.00",
+        "created_at": "2023-09-30T12:36:37.381Z",
+        "parent": null,
+        "lft": 1,
+        "rght": 4,
+        "tree_id": 3,
+        "level": 0
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 5,
+    "fields": {
+        "type_supplier": "retail",
+        "name": "ЭлектроСити",
+        "email": "support@electrocity.ru",
+        "country": "Россия",
+        "city": "Санкт-Петербург",
+        "street": "Торговый пр.",
+        "house_number": "15",
+        "debt": "10000.00",
+        "created_at": "2023-09-30T12:36:58.769Z",
+        "parent": 4,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 6,
+    "fields": {
+        "type_supplier": "factory",
+        "name": "Завод Электроники №3",
+        "email": "contact@zavod3.ru",
+        "country": "Россия",
+        "city": "Новосибирск",
+        "street": "Западная ул.",
+        "house_number": "9",
+        "debt": "0.00",
+        "created_at": "2023-09-30T12:37:18.656Z",
+        "parent": null,
+        "lft": 1,
+        "rght": 6,
+        "tree_id": 4,
+        "level": 0
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 7,
+    "fields": {
+        "type_supplier": "retail",
+        "name": "ТехноПлюс",
+        "email": "shop@technoplus.ru",
+        "country": "Россия",
+        "city": "Новосибирск",
+        "street": "Восточная ул.",
+        "house_number": "7",
+        "debt": "7000.00",
+        "created_at": "2023-09-30T12:38:18.988Z",
+        "parent": 6,
+        "lft": 2,
+        "rght": 5,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 8,
+    "fields": {
+        "type_supplier": "entrepreneur",
+        "name": "Гаджеты Петрова",
+        "email": "petrov.gadgets@gmail.com",
+        "country": "Россия",
+        "city": "Новосибирск",
+        "street": "Техническая ул.",
+        "house_number": "2б",
+        "debt": "2500.00",
+        "created_at": "2023-09-30T12:38:43.765Z",
+        "parent": 7,
+        "lft": 3,
+        "rght": 4,
+        "tree_id": 4,
+        "level": 2
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 9,
+    "fields": {
+        "type_supplier": "factory",
+        "name": "ElectronBel Factory",
+        "email": "contact@electronbel.by",
+        "country": "Беларусь",
+        "city": "Минск",
+        "street": "Улица Промышленная",
+        "house_number": "56",
+        "debt": "0.00",
+        "created_at": "2023-09-30T12:39:51.747Z",
+        "parent": null,
+        "lft": 1,
+        "rght": 6,
+        "tree_id": 1,
+        "level": 0
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 10,
+    "fields": {
+        "type_supplier": "retail",
+        "name": "TechBelarus Center",
+        "email": "info@techbelarus.by",
+        "country": "Беларусь",
+        "city": "Минск",
+        "street": "Улица Техническая",
+        "house_number": "21",
+        "debt": "7500.00",
+        "created_at": "2023-09-30T12:41:06.584Z",
+        "parent": 9,
+        "lft": 2,
+        "rght": 5,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "app_shop.supplier",
+    "pk": 11,
+    "fields": {
+        "type_supplier": "entrepreneur",
+        "name": "ElectroTech Ivanov",
+        "email": "ivanov.electro@gmail.com",
+        "country": "Беларусь",
+        "city": "Брест",
+        "street": "Площадь Центральная",
+        "house_number": "8",
+        "debt": "1200.00",
+        "created_at": "2023-09-30T12:41:24.044Z",
+        "parent": 10,
+        "lft": 3,
+        "rght": 4,
+        "tree_id": 1,
+        "level": 2
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 1,
+    "fields": {
+        "name": "Смартфон Xperia",
+        "model": "XZ1",
+        "release_date": "2020-02-15",
+        "supplier": 1
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 2,
+    "fields": {
+        "name": "Наушники Xperia",
+        "model": "XH5",
+        "release_date": "2020-07-20",
+        "supplier": 1
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 3,
+    "fields": {
+        "name": "Планшет TechМаркет",
+        "model": "TM-8",
+        "release_date": "2019-10-05",
+        "supplier": 2
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 4,
+    "fields": {
+        "name": "Мышь TechМаркет",
+        "model": "TM-M1",
+        "release_date": "2021-03-11",
+        "supplier": 2
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 5,
+    "fields": {
+        "name": "Наушники Иванова",
+        "model": "IV-H7",
+        "release_date": "2020-04-25",
+        "supplier": 3
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 6,
+    "fields": {
+        "name": "Клавиатура Иванова",
+        "model": "IV-K2",
+        "release_date": "2020-12-10",
+        "supplier": 3
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 7,
+    "fields": {
+        "name": "Лампа ElectronBel",
+        "model": "EB-L1",
+        "release_date": "2019-09-20",
+        "supplier": 4
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 8,
+    "fields": {
+        "name": "Розетка ElectronBel",
+        "model": "EB-R4",
+        "release_date": "2020-03-05",
+        "supplier": 4
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 9,
+    "fields": {
+        "name": "Компьютер TechBelarus",
+        "model": "TB-PC1",
+        "release_date": "2018-11-15",
+        "supplier": 5
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 10,
+    "fields": {
+        "name": "Монитор TechBelarus",
+        "model": "TB-Mon2",
+        "release_date": "2019-02-18",
+        "supplier": 5
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 11,
+    "fields": {
+        "name": "Телевизор ElectroTech",
+        "model": "ET-TV3",
+        "release_date": "2017-07-05",
+        "supplier": 6
+    }
+},
+{
+    "model": "app_shop.product",
+    "pk": 12,
+    "fields": {
+        "name": "Пульт ElectroTech",
+        "model": "ET-Remote",
+        "release_date": "2019-10-05",
+        "supplier": 6
+    }
+}
+]
